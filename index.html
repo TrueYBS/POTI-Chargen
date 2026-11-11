@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Path of the Incarnate - Character Generator</title>
+    <style>
+        body { font-family: "Georgia", serif; background-color: #121212; color: #e0e0e0; padding: 2rem; display: flex; justify-content: center;}
+        .container { max-width: 650px; width: 100%; background: #1e1e1e; padding: 2rem; border: 1px solid #333; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.5); }
+        h1 { color: #d4af37; text-align: center; font-variant: small-caps; }
+        button { background-color: #d4af37; color: #121212; border: none; padding: 12px; width: 100%; font-size: 1.2rem; font-weight: bold; cursor: pointer; margin-bottom: 25px; transition: 0.2s; }
+        button:hover { background-color: #ebd076; }
+        button:disabled { background-color: #444; color: #777; cursor: not-allowed; }
+        .trait-box { background: #2a2a2a; border-left: 4px solid #555; padding: 12px; margin-bottom: 12px; }
+        .trait-box.rp-heavy { border-left-color: #7b2c2c; } /* Highlight RP traits slightly differently */
+        .trait-label { font-size: 0.8rem; color: #888; text-transform: uppercase; margin-bottom: 4px; letter-spacing: 1px; }
+        .trait-value { font-size: 1.1rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Path of the Incarnate</h1>
+        <button id="generate-btn" disabled>Rolling the Dice...</button>
+        
+        <div class="trait-box">
+            <div class="trait-label">Race & Gender</div>
+            <div class="trait-value" id="out-race">---</div>
+        </div>
+        <div class="trait-box">
+            <div class="trait-label">Class</div>
+            <div class="trait-value" id="out-class">---</div>
+        </div>
+        <div class="trait-box">
+            <div class="trait-label">Birthsign</div>
+            <div class="trait-value" id="out-birthsign">---</div>
+        </div>
+        <div class="trait-box">
+            <div class="trait-label">Starting Faction</div>
+            <div class="trait-value" id="out-faction">---</div>
+        </div>
+        
+        <!-- Roleplay Elements -->
+        <div class="trait-box rp-heavy">
+            <div class="trait-label">Flaw</div>
+            <div class="trait-value" id="out-flaw">---</div>
+        </div>
+        <div class="trait-box rp-heavy">
+            <div class="trait-label">Ideal</div>
+            <div class="trait-value" id="out-ideal">---</div>
+        </div>
+        <div class="trait-box rp-heavy">
+            <div class="trait-label">Drive</div>
+            <div class="trait-value" id="out-drive">---</div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

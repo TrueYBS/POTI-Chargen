@@ -1,0 +1,1658 @@
+{
+  "races_complete_stats": [
+    {
+      "RaceID": "R01_M",
+      "Name": "Argonian",
+      "Gender": "Male",
+      "Base_Strength": 40,
+      "Base_Intelligence": 40,
+      "Base_Willpower": 30,
+      "Base_Agility": 50,
+      "Base_Speed": 50,
+      "Base_Endurance": 30,
+      "Base_Personality": 30,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Combat",
+      "Power": null,
+      "Passive_1": "Resist Disease (75%)"
+    },
+    {
+      "RaceID": "R01_F",
+      "Name": "Argonian",
+      "Gender": "Female",
+      "Base_Strength": 40,
+      "Base_Intelligence": 50,
+      "Base_Willpower": 40,
+      "Base_Agility": 40,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 30,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Combat",
+      "Power": null,
+      "Passive_1": "Resist Disease (75%)"
+    },
+    {
+      "RaceID": "R02_M",
+      "Name": "Breton",
+      "Gender": "Male",
+      "Base_Strength": 40,
+      "Base_Intelligence": 50,
+      "Base_Willpower": 50,
+      "Base_Agility": 30,
+      "Base_Speed": 30,
+      "Base_Endurance": 30,
+      "Base_Personality": 40,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Magic",
+      "Power": "Dragon Skin",
+      "Passive_1": "Resist Magicka (50%)"
+    },
+    {
+      "RaceID": "R02_F",
+      "Name": "Breton",
+      "Gender": "Female",
+      "Base_Strength": 30,
+      "Base_Intelligence": 50,
+      "Base_Willpower": 50,
+      "Base_Agility": 30,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 40,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Magic",
+      "Power": "Dragon Skin",
+      "Passive_1": "Resist Magicka (50%)"
+    },
+    {
+      "RaceID": "R03_M",
+      "Name": "Dunmer (Dark Elf)",
+      "Gender": "Male",
+      "Base_Strength": 40,
+      "Base_Intelligence": 40,
+      "Base_Willpower": 30,
+      "Base_Agility": 40,
+      "Base_Speed": 50,
+      "Base_Endurance": 40,
+      "Base_Personality": 30,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Magic/Combat",
+      "Power": "Ancestor Guardian",
+      "Passive_1": "Resist Fire (75%)"
+    },
+    {
+      "RaceID": "R03_F",
+      "Name": "Dunmer (Dark Elf)",
+      "Gender": "Female",
+      "Base_Strength": 30,
+      "Base_Intelligence": 40,
+      "Base_Willpower": 30,
+      "Base_Agility": 40,
+      "Base_Speed": 50,
+      "Base_Endurance": 30,
+      "Base_Personality": 40,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Magic/Combat",
+      "Power": "Ancestor Guardian",
+      "Passive_1": "Resist Fire (75%)"
+    },
+    {
+      "RaceID": "R04_M",
+      "Name": "Altmer (High Elf)",
+      "Gender": "Male",
+      "Base_Strength": 30,
+      "Base_Intelligence": 50,
+      "Base_Willpower": 40,
+      "Base_Agility": 40,
+      "Base_Speed": 30,
+      "Base_Endurance": 30,
+      "Base_Personality": 40,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Magic",
+      "Power": "Highborn",
+      "Passive_1": "Weakness to Magicka (50%)"
+    },
+    {
+      "RaceID": "R04_F",
+      "Name": "Altmer (High Elf)",
+      "Gender": "Female",
+      "Base_Strength": 30,
+      "Base_Intelligence": 50,
+      "Base_Willpower": 40,
+      "Base_Agility": 40,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 40,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Magic",
+      "Power": "Highborn",
+      "Passive_1": "Weakness to Magicka (50%)"
+    },
+    {
+      "RaceID": "R05_M",
+      "Name": "Imperial",
+      "Gender": "Male",
+      "Base_Strength": 40,
+      "Base_Intelligence": 40,
+      "Base_Willpower": 30,
+      "Base_Agility": 30,
+      "Base_Speed": 40,
+      "Base_Endurance": 40,
+      "Base_Personality": 50,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Stealth",
+      "Power": "Star of the West",
+      "Passive_1": "Voice of the Emperor"
+    },
+    {
+      "RaceID": "R05_F",
+      "Name": "Imperial",
+      "Gender": "Female",
+      "Base_Strength": 40,
+      "Base_Intelligence": 40,
+      "Base_Willpower": 40,
+      "Base_Agility": 30,
+      "Base_Speed": 30,
+      "Base_Endurance": 40,
+      "Base_Personality": 50,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Stealth",
+      "Power": "Star of the West",
+      "Passive_1": "Voice of the Emperor"
+    },
+    {
+      "RaceID": "R06_M",
+      "Name": "Khajiit",
+      "Gender": "Male",
+      "Base_Strength": 40,
+      "Base_Intelligence": 40,
+      "Base_Willpower": 30,
+      "Base_Agility": 50,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 40,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Stealth",
+      "Power": "Eye of Night",
+      "Passive_1": "Eye of Fear"
+    },
+    {
+      "RaceID": "R06_F",
+      "Name": "Khajiit",
+      "Gender": "Female",
+      "Base_Strength": 30,
+      "Base_Intelligence": 40,
+      "Base_Willpower": 30,
+      "Base_Agility": 50,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 40,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Stealth",
+      "Power": "Eye of Night",
+      "Passive_1": "Eye of Fear"
+    },
+    {
+      "RaceID": "R07_M",
+      "Name": "Nord",
+      "Gender": "Male",
+      "Base_Strength": 50,
+      "Base_Intelligence": 30,
+      "Base_Willpower": 40,
+      "Base_Agility": 30,
+      "Base_Speed": 40,
+      "Base_Endurance": 50,
+      "Base_Personality": 30,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Combat",
+      "Power": "Woad",
+      "Passive_1": "Resist Frost (100%)"
+    },
+    {
+      "RaceID": "R07_F",
+      "Name": "Nord",
+      "Gender": "Female",
+      "Base_Strength": 50,
+      "Base_Intelligence": 30,
+      "Base_Willpower": 50,
+      "Base_Agility": 30,
+      "Base_Speed": 40,
+      "Base_Endurance": 40,
+      "Base_Personality": 30,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Combat",
+      "Power": "Woad",
+      "Passive_1": "Resist Frost (100%)"
+    },
+    {
+      "RaceID": "R08_M",
+      "Name": "Orc",
+      "Gender": "Male",
+      "Base_Strength": 45,
+      "Base_Intelligence": 30,
+      "Base_Willpower": 50,
+      "Base_Agility": 35,
+      "Base_Speed": 30,
+      "Base_Endurance": 50,
+      "Base_Personality": 30,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Combat",
+      "Power": "Berserk",
+      "Passive_1": "Resist Magicka (25%)"
+    },
+    {
+      "RaceID": "R08_F",
+      "Name": "Orc",
+      "Gender": "Female",
+      "Base_Strength": 45,
+      "Base_Intelligence": 45,
+      "Base_Willpower": 45,
+      "Base_Agility": 35,
+      "Base_Speed": 30,
+      "Base_Endurance": 50,
+      "Base_Personality": 25,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Combat",
+      "Power": "Berserk",
+      "Passive_1": "Resist Magicka (25%)"
+    },
+    {
+      "RaceID": "R09_M",
+      "Name": "Redguard",
+      "Gender": "Male",
+      "Base_Strength": 50,
+      "Base_Intelligence": 30,
+      "Base_Willpower": 30,
+      "Base_Agility": 40,
+      "Base_Speed": 40,
+      "Base_Endurance": 50,
+      "Base_Personality": 30,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Combat",
+      "Power": "Adrenaline Rush",
+      "Passive_1": "Resist Poison (75%)"
+    },
+    {
+      "RaceID": "R09_F",
+      "Name": "Redguard",
+      "Gender": "Female",
+      "Base_Strength": 40,
+      "Base_Intelligence": 30,
+      "Base_Willpower": 30,
+      "Base_Agility": 40,
+      "Base_Speed": 40,
+      "Base_Endurance": 50,
+      "Base_Personality": 40,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Combat",
+      "Power": "Adrenaline Rush",
+      "Passive_1": "Resist Poison (75%)"
+    },
+    {
+      "RaceID": "R10_M",
+      "Name": "Bosmer (Wood Elf)",
+      "Gender": "Male",
+      "Base_Strength": 30,
+      "Base_Intelligence": 40,
+      "Base_Willpower": 30,
+      "Base_Agility": 50,
+      "Base_Speed": 50,
+      "Base_Endurance": 30,
+      "Base_Personality": 40,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Stealth",
+      "Power": "Beast Tongue",
+      "Passive_1": "Resist Disease (75%)"
+    },
+    {
+      "RaceID": "R10_F",
+      "Name": "Bosmer (Wood Elf)",
+      "Gender": "Female",
+      "Base_Strength": 30,
+      "Base_Intelligence": 40,
+      "Base_Willpower": 30,
+      "Base_Agility": 50,
+      "Base_Speed": 50,
+      "Base_Endurance": 30,
+      "Base_Personality": 40,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Stealth",
+      "Power": "Beast Tongue",
+      "Passive_1": "Resist Disease (75%)"
+    },
+    {
+      "RaceID": "R11_M",
+      "Name": "Imga",
+      "Gender": "Male",
+      "Base_Strength": 45,
+      "Base_Intelligence": 30,
+      "Base_Willpower": 30,
+      "Base_Agility": 40,
+      "Base_Speed": 40,
+      "Base_Endurance": 45,
+      "Base_Personality": 30,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Combat/Stealth",
+      "Power": "Great Ape Agility",
+      "Passive_1": "Resist Disease (50%)"
+    },
+    {
+      "RaceID": "R11_F",
+      "Name": "Imga",
+      "Gender": "Female",
+      "Base_Strength": 40,
+      "Base_Intelligence": 35,
+      "Base_Willpower": 35,
+      "Base_Agility": 40,
+      "Base_Speed": 40,
+      "Base_Endurance": 40,
+      "Base_Personality": 30,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Combat/Stealth",
+      "Power": "Great Ape Agility",
+      "Passive_1": "Resist Disease (50%)"
+    },
+    {
+      "RaceID": "R12_M",
+      "Name": "Keptu-Quey",
+      "Gender": "Male",
+      "Base_Strength": 40,
+      "Base_Intelligence": 35,
+      "Base_Willpower": 35,
+      "Base_Agility": 35,
+      "Base_Speed": 40,
+      "Base_Endurance": 45,
+      "Base_Personality": 30,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Combat",
+      "Power": "Stalwart Defense",
+      "Passive_1": "Resist Normal Weapons (10%)"
+    },
+    {
+      "RaceID": "R12_F",
+      "Name": "Keptu-Quey",
+      "Gender": "Female",
+      "Base_Strength": 40,
+      "Base_Intelligence": 35,
+      "Base_Willpower": 35,
+      "Base_Agility": 35,
+      "Base_Speed": 40,
+      "Base_Endurance": 40,
+      "Base_Personality": 35,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Combat",
+      "Power": "Stalwart Defense",
+      "Passive_1": "Resist Normal Weapons (10%)"
+    },
+    {
+      "RaceID": "R13_M",
+      "Name": "Chimeri-Quey",
+      "Gender": "Male",
+      "Base_Strength": 30,
+      "Base_Intelligence": 50,
+      "Base_Willpower": 45,
+      "Base_Agility": 35,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 30,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Magic",
+      "Power": "Sea Magic",
+      "Passive_1": "Swift Swim (20 pts)"
+    },
+    {
+      "RaceID": "R13_F",
+      "Name": "Chimeri-Quey",
+      "Gender": "Female",
+      "Base_Strength": 30,
+      "Base_Intelligence": 50,
+      "Base_Willpower": 45,
+      "Base_Agility": 35,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 30,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Magic",
+      "Power": "Sea Magic",
+      "Passive_1": "Swift Swim (20 pts)"
+    },
+    {
+      "RaceID": "R14_M",
+      "Name": "Cathay-Raht",
+      "Gender": "Male",
+      "Base_Strength": 50,
+      "Base_Intelligence": 30,
+      "Base_Willpower": 30,
+      "Base_Agility": 40,
+      "Base_Speed": 40,
+      "Base_Endurance": 40,
+      "Base_Personality": 30,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Combat",
+      "Power": "Eye of Night",
+      "Passive_1": "Feline Grace"
+    },
+    {
+      "RaceID": "R14_F",
+      "Name": "Cathay-Raht",
+      "Gender": "Female",
+      "Base_Strength": 40,
+      "Base_Intelligence": 35,
+      "Base_Willpower": 30,
+      "Base_Agility": 40,
+      "Base_Speed": 40,
+      "Base_Endurance": 40,
+      "Base_Personality": 35,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Combat",
+      "Power": "Eye of Night",
+      "Passive_1": "Feline Grace"
+    },
+    {
+      "RaceID": "R15_M",
+      "Name": "Dagi-Raht",
+      "Gender": "Male",
+      "Base_Strength": 30,
+      "Base_Intelligence": 45,
+      "Base_Willpower": 35,
+      "Base_Agility": 50,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 30,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Magic/Stealth",
+      "Power": "Eye of Night",
+      "Passive_1": "Fortify Acrobatics"
+    },
+    {
+      "RaceID": "R15_F",
+      "Name": "Dagi-Raht",
+      "Gender": "Female",
+      "Base_Strength": 30,
+      "Base_Intelligence": 45,
+      "Base_Willpower": 35,
+      "Base_Agility": 50,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 30,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Magic/Stealth",
+      "Power": "Eye of Night",
+      "Passive_1": "Fortify Acrobatics"
+    },
+    {
+      "RaceID": "R16_M",
+      "Name": "Ohmes",
+      "Gender": "Male",
+      "Base_Strength": 40,
+      "Base_Intelligence": 40,
+      "Base_Willpower": 30,
+      "Base_Agility": 45,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 35,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Stealth",
+      "Power": "Eye of Night",
+      "Passive_1": "Fortify Mercantile"
+    },
+    {
+      "RaceID": "R16_F",
+      "Name": "Ohmes",
+      "Gender": "Female",
+      "Base_Strength": 30,
+      "Base_Intelligence": 40,
+      "Base_Willpower": 30,
+      "Base_Agility": 45,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 45,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Stealth",
+      "Power": "Eye of Night",
+      "Passive_1": "Fortify Mercantile"
+    },
+    {
+      "RaceID": "R17_M",
+      "Name": "Tojay",
+      "Gender": "Male",
+      "Base_Strength": 50,
+      "Base_Intelligence": 30,
+      "Base_Willpower": 30,
+      "Base_Agility": 40,
+      "Base_Speed": 40,
+      "Base_Endurance": 40,
+      "Base_Personality": 30,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Magic",
+      "Power": "Mountain Fastness",
+      "Passive_1": "Careful Step"
+    },
+    {
+      "RaceID": "R17_F",
+      "Name": "Tojay",
+      "Gender": "Female",
+      "Base_Strength": 40,
+      "Base_Intelligence": 35,
+      "Base_Willpower": 30,
+      "Base_Agility": 40,
+      "Base_Speed": 40,
+      "Base_Endurance": 40,
+      "Base_Personality": 35,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Magic",
+      "Power": "Mountain Fastness",
+      "Passive_1": "Careful Step"
+    },
+    {
+      "RaceID": "R18_M",
+      "Name": "Malacath Orc",
+      "Gender": "Male",
+      "Base_Strength": 30,
+      "Base_Intelligence": 45,
+      "Base_Willpower": 35,
+      "Base_Agility": 50,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 30,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Combat",
+      "Power": "Berserk",
+      "Passive_1": "Resist Magicka (25%)"
+    },
+    {
+      "RaceID": "R18_F",
+      "Name": "Malacath Orc",
+      "Gender": "Female",
+      "Base_Strength": 30,
+      "Base_Intelligence": 45,
+      "Base_Willpower": 35,
+      "Base_Agility": 50,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 30,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Combat",
+      "Power": "Berserk",
+      "Passive_1": "Resist Magicka (25%)"
+    },
+    {
+      "RaceID": "R19_M",
+      "Name": "Duadri",
+      "Gender": "Male",
+      "Base_Strength": 40,
+      "Base_Intelligence": 40,
+      "Base_Willpower": 30,
+      "Base_Agility": 45,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 35,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Combat/Stealth",
+      "Power": "Tava's Gale",
+      "Passive_1": "Weakness to Shock (50%)"
+    },
+    {
+      "RaceID": "R19_F",
+      "Name": "Duaadri",
+      "Gender": "Female",
+      "Base_Strength": 30,
+      "Base_Intelligence": 40,
+      "Base_Willpower": 30,
+      "Base_Agility": 45,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 45,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Combat/Stealth",
+      "Power": "Tava's Gale",
+      "Passive_1": "Weakness to Shock (50%)"
+    },
+    {
+      "RaceID": "R20_M",
+      "Name": "Omnes-Raht",
+      "Gender": "Male",
+      "Base_Strength": 40,
+      "Base_Intelligence": 40,
+      "Base_Willpower": 30,
+      "Base_Agility": 45,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 35,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Stealth",
+      "Power": "Claw Dance",
+      "Passive_1": "Feline Grace"
+    },
+    {
+      "RaceID": "R20_F",
+      "Name": "Omnes-Raht",
+      "Gender": "Female",
+      "Base_Strength": 30,
+      "Base_Intelligence": 40,
+      "Base_Willpower": 30,
+      "Base_Agility": 45,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 45,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Stealth",
+      "Power": "Claw Dance",
+      "Passive_1": "Feline Grace"
+    },
+    {
+      "RaceID": "R21_M",
+      "Name": "Reachmen",
+      "Gender": "Male",
+      "Base_Strength": 40,
+      "Base_Intelligence": 40,
+      "Base_Willpower": 30,
+      "Base_Agility": 45,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 35,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Combat/Magic",
+      "Power": "Blood Chant",
+      "Passive_1": "Magicka Bonus (0.5x INT)"
+    },
+    {
+      "RaceID": "R21_F",
+      "Name": "Reachmen",
+      "Gender": "Female",
+      "Base_Strength": 30,
+      "Base_Intelligence": 40,
+      "Base_Willpower": 30,
+      "Base_Agility": 45,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 45,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Combat/Magic",
+      "Power": "Blood Chant",
+      "Passive_1": "Magicka Bonus (0.5x INT)"
+    },
+    {
+      "RaceID": "R22_M",
+      "Name": "Riverfolk",
+      "Gender": "Male",
+      "Base_Strength": 40,
+      "Base_Intelligence": 40,
+      "Base_Willpower": 30,
+      "Base_Agility": 45,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 35,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Combat",
+      "Power": "Mirror",
+      "Passive_1": "Resist Shock (50%)"
+    },
+    {
+      "RaceID": "R22_F",
+      "Name": "Riverfolk",
+      "Gender": "Female",
+      "Base_Strength": 30,
+      "Base_Intelligence": 40,
+      "Base_Willpower": 30,
+      "Base_Agility": 45,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 45,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Combat",
+      "Power": "Mirror",
+      "Passive_1": "Resist Shock (50%)"
+    },
+    {
+      "RaceID": "R23_M",
+      "Name": "Suhtay",
+      "Gender": "Male",
+      "Base_Strength": 40,
+      "Base_Intelligence": 40,
+      "Base_Willpower": 30,
+      "Base_Agility": 45,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 35,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Stealth",
+      "Power": "Claw Dance",
+      "Passive_1": "Feline Grace"
+    },
+    {
+      "RaceID": "R23_F",
+      "Name": "Suhtay",
+      "Gender": "Female",
+      "Base_Strength": 30,
+      "Base_Intelligence": 40,
+      "Base_Willpower": 30,
+      "Base_Agility": 45,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 45,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Stealth",
+      "Power": "Claw Dance",
+      "Passive_1": "Feline Grace"
+    },
+    {
+      "RaceID": "R24_M",
+      "Name": "Ynesai",
+      "Gender": "Male",
+      "Base_Strength": 40,
+      "Base_Intelligence": 40,
+      "Base_Willpower": 30,
+      "Base_Agility": 45,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 35,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Stealth/Combat",
+      "Power": "Fury of the Dragon King",
+      "Passive_1": "Fortify Sneak (10s)"
+    },
+    {
+      "RaceID": "R24_F",
+      "Name": "Ynesai",
+      "Gender": "Female",
+      "Base_Strength": 30,
+      "Base_Intelligence": 40,
+      "Base_Willpower": 30,
+      "Base_Agility": 45,
+      "Base_Speed": 40,
+      "Base_Endurance": 30,
+      "Base_Personality": 45,
+      "Base_Luck": 40,
+      "Specialization_Bias": "Stealth/Combat",
+      "Power": "Fury of the Dragon King",
+      "Passive_1": "Fortify Sneak (10s)"
+    }
+  ],
+  "birthsigns": [
+    {
+      "SignID": "B01",
+      "Name": "The Apprentice",
+      "Effect": "Fortify Maximum Magicka 1.5x INT, Weakness to Magicka 50%"
+    },
+    {
+      "SignID": "B02",
+      "Name": "The Atronach",
+      "Effect": "Wombburn, Spell Absorption 50%, Fortify Magicka 2.0x INT"
+    },
+    {
+      "SignID": "B03",
+      "Name": "The Lady",
+      "Effect": "Fortify Endurance 25 pts, Fortify Personality 25 pts"
+    },
+    {
+      "SignID": "B04",
+      "Name": "The Lord",
+      "Effect": "Blood of the North (Restore Health), Trollkin (Weakness to Fire 100%)"
+    },
+    {
+      "SignID": "B05",
+      "Name": "The Lover",
+      "Effect": "Mooncalf (Fortify Agility 25 pts), Lover's Kiss (Paralyze)"
+    },
+    {
+      "SignID": "B06",
+      "Name": "The Mage",
+      "Effect": "Fortify Maximum Magicka 0.5x INT"
+    },
+    {
+      "SignID": "B07",
+      "Name": "The Ritual",
+      "Effect": "Mara's Gift (Restore Health), Blessed Word/Touch (Turn Undead)"
+    },
+    {
+      "SignID": "B08",
+      "Name": "The Serpent",
+      "Effect": "Star-Cursed (Damage Health, Poison, Damage Health on Self)"
+    },
+    {
+      "SignID": "B09",
+      "Name": "The Shadow",
+      "Effect": "Moonshadow (Invisibility 60s)"
+    },
+    {
+      "SignID": "B10",
+      "Name": "The Steed",
+      "Effect": "Charioteer (Fortify Speed 25 pts)"
+    },
+    {
+      "SignID": "B11",
+      "Name": "The Thief",
+      "Effect": "Akavir Danger Sense (Sanctuary 10 pts)"
+    },
+    {
+      "SignID": "B12",
+      "Name": "The Tower",
+      "Effect": "Beggar's Nose (Detect Animal/Key/Enchantment), Tower Key (Open 50 pts)"
+    },
+    {
+      "SignID": "B13",
+      "Name": "The Warrior",
+      "Effect": "Warwyrd (Fortify Attack 10 pts)"
+    }
+  ],
+  "classes_tr": [
+    {
+      "ClassID": "C01",
+      "Name": "Acrobat",
+      "Specialization": "Stealth",
+      "Favored_Attribute_1": "Agility",
+      "Favored_Attribute_2": "Endurance",
+      "Major_1": "Acrobatics",
+      "Major_2": "Athletics",
+      "Major_3": "Marksman",
+      "Major_4": "Sneak",
+      "Major_5": "Unarmored",
+      "Minor_1": "Speechcraft",
+      "Minor_2": "Alteration",
+      "Minor_3": "Spear",
+      "Minor_4": "Hand-to-hand",
+      "Minor_5": "Light Armor"
+    },
+    {
+      "ClassID": "C02",
+      "Name": "Agent",
+      "Specialization": "Stealth",
+      "Favored_Attribute_1": "Personality",
+      "Favored_Attribute_2": "Agility",
+      "Major_1": "Speechcraft",
+      "Major_2": "Sneak",
+      "Major_3": "Acrobatics",
+      "Major_4": "Light Armor",
+      "Major_5": "Short Blade",
+      "Minor_1": "Mercantile",
+      "Minor_2": "Conjuration",
+      "Minor_3": "Block",
+      "Minor_4": "Unarmored",
+      "Minor_5": "Illusion"
+    },
+    {
+      "ClassID": "C03",
+      "Name": "Archer",
+      "Specialization": "Combat",
+      "Favored_Attribute_1": "Agility",
+      "Favored_Attribute_2": "Strength",
+      "Major_1": "Marksman",
+      "Major_2": "Long Blade",
+      "Major_3": "Block",
+      "Major_4": "Athletics",
+      "Major_5": "Light Armor",
+      "Minor_1": "Unarmored",
+      "Minor_2": "Spear",
+      "Minor_3": "Restoration",
+      "Minor_4": "Sneak",
+      "Minor_5": "Medium Armor"
+    },
+    {
+      "ClassID": "C04",
+      "Name": "Assassin",
+      "Specialization": "Stealth",
+      "Favored_Attribute_1": "Speed",
+      "Favored_Attribute_2": "Intelligence",
+      "Major_1": "Sneak",
+      "Major_2": "Marksman",
+      "Major_3": "Light Armor",
+      "Major_4": "Short Blade",
+      "Major_5": "Acrobatics",
+      "Minor_1": "Security",
+      "Minor_2": "Long Blade",
+      "Minor_3": "Alchemy",
+      "Minor_4": "Block",
+      "Minor_5": "Athletics"
+    },
+    {
+      "ClassID": "C05",
+      "Name": "Barbarian",
+      "Specialization": "Combat",
+      "Favored_Attribute_1": "Strength",
+      "Favored_Attribute_2": "Speed",
+      "Major_1": "Axe",
+      "Major_2": "Medium Armor",
+      "Major_3": "Blunt Weapon",
+      "Major_4": "Athletics",
+      "Major_5": "Block",
+      "Minor_1": "Acrobatics",
+      "Minor_2": "Light Armor",
+      "Minor_3": "Armorer",
+      "Minor_4": "Marksman",
+      "Minor_5": "Unarmored"
+    },
+    {
+      "ClassID": "C06",
+      "Name": "Bard",
+      "Specialization": "Stealth",
+      "Favored_Attribute_1": "Personality",
+      "Favored_Attribute_2": "Intelligence",
+      "Major_1": "Speechcraft",
+      "Major_2": "Alchemy",
+      "Major_3": "Acrobatics",
+      "Major_4": "Long Blade",
+      "Major_5": "Block",
+      "Minor_1": "Mercantile",
+      "Minor_2": "Illusion",
+      "Minor_3": "Medium Armor",
+      "Minor_4": "Enchant",
+      "Minor_5": "Sneak"
+    },
+    {
+      "ClassID": "C07",
+      "Name": "Battlemage",
+      "Specialization": "Magic",
+      "Favored_Attribute_1": "Intelligence",
+      "Favored_Attribute_2": "Strength",
+      "Major_1": "Alteration",
+      "Major_2": "Destruction",
+      "Major_3": "Conjuration",
+      "Major_4": "Axe",
+      "Major_5": "Heavy Armor",
+      "Minor_1": "Mysticism",
+      "Minor_2": "Enchant",
+      "Minor_3": "Alchemy",
+      "Minor_4": "Marksman",
+      "Minor_5": "Long Blade"
+    },
+    {
+      "ClassID": "C08",
+      "Name": "Crusader",
+      "Specialization": "Combat",
+      "Favored_Attribute_1": "Agility",
+      "Favored_Attribute_2": "Strength",
+      "Major_1": "Blunt Weapon",
+      "Major_2": "Long Blade",
+      "Major_3": "Destruction",
+      "Major_4": "Heavy Armor",
+      "Major_5": "Block",
+      "Minor_1": "Restoration",
+      "Minor_2": "Armorer",
+      "Minor_3": "Hand-to-hand",
+      "Minor_4": "Medium Armor",
+      "Minor_5": "Alchemy"
+    },
+    {
+      "ClassID": "C09",
+      "Name": "Healer",
+      "Specialization": "Magic",
+      "Favored_Attribute_1": "Willpower",
+      "Favored_Attribute_2": "Personality",
+      "Major_1": "Restoration",
+      "Major_2": "Mysticism",
+      "Major_3": "Alteration",
+      "Major_4": "Hand-to-hand",
+      "Major_5": "Speechcraft",
+      "Minor_1": "Illusion",
+      "Minor_2": "Alchemy",
+      "Minor_3": "Unarmored",
+      "Minor_4": "Light Armor",
+      "Minor_5": "Blunt Weapon"
+    },
+    {
+      "ClassID": "C10",
+      "Name": "Knight",
+      "Specialization": "Combat",
+      "Favored_Attribute_1": "Strength",
+      "Favored_Attribute_2": "Personality",
+      "Major_1": "Long Blade",
+      "Major_2": "Axe",
+      "Major_3": "Speechcraft",
+      "Major_4": "Heavy Armor",
+      "Major_5": "Block",
+      "Minor_1": "Restoration",
+      "Minor_2": "Mercantile",
+      "Minor_3": "Medium Armor",
+      "Minor_4": "Enchant",
+      "Minor_5": "Armorer"
+    },
+    {
+      "ClassID": "C11",
+      "Name": "Mage",
+      "Specialization": "Magic",
+      "Favored_Attribute_1": "Intelligence",
+      "Favored_Attribute_2": "Willpower",
+      "Major_1": "Mysticism",
+      "Major_2": "Destruction",
+      "Major_3": "Alteration",
+      "Major_4": "Illusion",
+      "Major_5": "Restoration",
+      "Minor_1": "Enchant",
+      "Minor_2": "Alchemy",
+      "Minor_3": "Unarmored",
+      "Minor_4": "Short Blade",
+      "Minor_5": "Conjuration"
+    },
+    {
+      "ClassID": "C12",
+      "Name": "Monk",
+      "Specialization": "Stealth",
+      "Favored_Attribute_1": "Agility",
+      "Favored_Attribute_2": "Willpower",
+      "Major_1": "Hand-to-hand",
+      "Major_2": "Unarmored",
+      "Major_3": "Athletics",
+      "Major_4": "Acrobatics",
+      "Major_5": "Sneak",
+      "Minor_1": "Block",
+      "Minor_2": "Marksman",
+      "Minor_3": "Light Armor",
+      "Minor_4": "Restoration",
+      "Minor_5": "Mysticism"
+    },
+    {
+      "ClassID": "C13",
+      "Name": "Nightblade",
+      "Specialization": "Magic",
+      "Favored_Attribute_1": "Willpower",
+      "Favored_Attribute_2": "Speed",
+      "Major_1": "Mysticism",
+      "Major_2": "Illusion",
+      "Major_3": "Alteration",
+      "Major_4": "Sneak",
+      "Major_5": "Short Blade",
+      "Minor_1": "Light Armor",
+      "Minor_2": "Unarmored",
+      "Minor_3": "Destruction",
+      "Minor_4": "Marksman",
+      "Minor_5": "Security"
+    },
+    {
+      "ClassID": "C14",
+      "Name": "Pilgrim",
+      "Specialization": "Stealth",
+      "Favored_Attribute_1": "Personality",
+      "Favored_Attribute_2": "Endurance",
+      "Major_1": "Speechcraft",
+      "Major_2": "Mercantile",
+      "Major_3": "Marksman",
+      "Major_4": "Restoration",
+      "Major_5": "Medium Armor",
+      "Minor_1": "Illusion",
+      "Minor_2": "Hand-to-hand",
+      "Minor_3": "Short Blade",
+      "Minor_4": "Alchemy",
+      "Minor_5": "Block"
+    },
+    {
+      "ClassID": "C15",
+      "Name": "Rogue",
+      "Specialization": "Combat",
+      "Favored_Attribute_1": "Speed",
+      "Favored_Attribute_2": "Personality",
+      "Major_1": "Short Blade",
+      "Major_2": "Mercantile",
+      "Major_3": "Axe",
+      "Major_4": "Light Armor",
+      "Major_5": "Hand-to-hand",
+      "Minor_1": "Block",
+      "Minor_2": "Medium Armor",
+      "Minor_3": "Speechcraft",
+      "Minor_4": "Athletics",
+      "Minor_5": "Long Blade"
+    },
+    {
+      "ClassID": "C16",
+      "Name": "Scout",
+      "Specialization": "Combat",
+      "Favored_Attribute_1": "Speed",
+      "Favored_Attribute_2": "Endurance",
+      "Major_1": "Sneak",
+      "Major_2": "Long Blade",
+      "Major_3": "Medium Armor",
+      "Major_4": "Athletics",
+      "Major_5": "Block",
+      "Minor_1": "Marksman",
+      "Minor_2": "Alchemy",
+      "Minor_3": "Alteration",
+      "Minor_4": "Light Armor",
+      "Minor_5": "Unarmored"
+    },
+    {
+      "ClassID": "C17",
+      "Name": "Sorcerer",
+      "Specialization": "Magic",
+      "Favored_Attribute_1": "Intelligence",
+      "Favored_Attribute_2": "Endurance",
+      "Major_1": "Enchant",
+      "Major_2": "Conjuration",
+      "Major_3": "Mysticism",
+      "Major_4": "Destruction",
+      "Major_5": "Alteration",
+      "Minor_1": "Illusion",
+      "Minor_2": "Medium Armor",
+      "Minor_3": "Heavy Armor",
+      "Minor_4": "Marksman",
+      "Minor_5": "Short Blade"
+    },
+    {
+      "ClassID": "C18",
+      "Name": "Spellsword",
+      "Specialization": "Magic",
+      "Favored_Attribute_1": "Willpower",
+      "Favored_Attribute_2": "Endurance",
+      "Major_1": "Block",
+      "Major_2": "Restoration",
+      "Major_3": "Long Blade",
+      "Major_4": "Destruction",
+      "Major_5": "Alteration",
+      "Minor_1": "Blunt Weapon",
+      "Minor_2": "Enchant",
+      "Minor_3": "Alchemy",
+      "Minor_4": "Medium Armor",
+      "Minor_5": "Axe"
+    },
+    {
+      "ClassID": "C19",
+      "Name": "Thief",
+      "Specialization": "Stealth",
+      "Favored_Attribute_1": "Speed",
+      "Favored_Attribute_2": "Agility",
+      "Major_1": "Sneak",
+      "Major_2": "Security",
+      "Major_3": "Light Armor",
+      "Major_4": "Short Blade",
+      "Major_5": "Marksman",
+      "Minor_1": "Speechcraft",
+      "Minor_2": "Hand-to-hand",
+      "Minor_3": "Acrobatics",
+      "Minor_4": "Athletics",
+      "Minor_5": "Mercantile"
+    },
+    {
+      "ClassID": "C20",
+      "Name": "Warrior",
+      "Specialization": "Combat",
+      "Favored_Attribute_1": "Strength",
+      "Favored_Attribute_2": "Endurance",
+      "Major_1": "Long Blade",
+      "Major_2": "Medium Armor",
+      "Major_3": "Heavy Armor",
+      "Major_4": "Athletics",
+      "Major_5": "Block",
+      "Minor_1": "Armorer",
+      "Minor_2": "Spear",
+      "Minor_3": "Marksman",
+      "Minor_4": "Axe",
+      "Minor_5": "Blunt Weapon"
+    },
+    {
+      "ClassID": "C21",
+      "Name": "Witchhunter",
+      "Specialization": "Magic",
+      "Favored_Attribute_1": "Intelligence",
+      "Favored_Attribute_2": "Agility",
+      "Major_1": "Conjuration",
+      "Major_2": "Enchant",
+      "Major_3": "Alchemy",
+      "Major_4": "Light Armor",
+      "Major_5": "Marksman",
+      "Minor_1": "Mysticism",
+      "Minor_2": "Block",
+      "Minor_3": "Unarmored",
+      "Minor_4": "Sneak",
+      "Minor_5": "Blunt Weapon"
+    }
+  ],
+  "start_type": [
+    {
+      "FactionID": "S01",
+      "Name": "Temple",
+      "Type": "Religious"
+    },
+    {
+      "FactionID": "S02",
+      "Name": "Morag Tong",
+      "Type": "Native"
+    },
+    {
+      "FactionID": "S03",
+      "Name": "Telvanni",
+      "Type": "Great House"
+    },
+    {
+      "FactionID": "S04",
+      "Name": "Redoran",
+      "Type": "Great House"
+    },
+    {
+      "FactionID": "S05",
+      "Name": "Indoril",
+      "Type": "Great House"
+    },
+    {
+      "FactionID": "S06",
+      "Name": "Hlaalu",
+      "Type": "Great House"
+    },
+    {
+      "FactionID": "S07",
+      "Name": "Imperial Cult",
+      "Type": "Imperial"
+    },
+    {
+      "FactionID": "S08",
+      "Name": "Imperial Legion",
+      "Type": "Imperial"
+    },
+    {
+      "FactionID": "S09",
+      "Name": "East Empire Company",
+      "Type": "Imperial"
+    },
+    {
+      "FactionID": "S10",
+      "Name": "Mages Guild",
+      "Type": "Imperial"
+    },
+    {
+      "FactionID": "S11",
+      "Name": "Fighters Guild",
+      "Type": "Imperial"
+    },
+    {
+      "FactionID": "S12",
+      "Name": "Thieves Guild",
+      "Type": "Imperial"
+    },
+    {
+      "FactionID": "S13",
+      "Name": "Shipwreck",
+      "Type": "Imperial"
+    },
+    {
+      "FactionID": "S14",
+      "Name": "Ebonheart",
+      "Type": "Freeform"
+    },
+    {
+      "FactionID": "S15",
+      "Name": "Skyrim",
+      "Type": "Freeform"
+    },
+    {
+      "FactionID": "S16",
+      "Name": "Cyrodiil",
+      "Type": "Freeform"
+    },
+    {
+      "FactionID": "S17",
+      "Name": "Entering Morrowind",
+      "Type": "Freeform"
+    },
+    {
+      "FactionID": "S18",
+      "Name": "Lycanthropic Amnesia",
+      "Type": "Freeform"
+    }
+  ],
+  "factions_tr": [
+    {
+      "FactionID": "F01",
+      "Name": "Temple",
+      "Type": "Religious"
+    },
+    {
+      "FactionID": "F02",
+      "Name": "Morag Tong",
+      "Type": "Native"
+    },
+    {
+      "FactionID": "F03",
+      "Name": "Telvanni",
+      "Type": "Great House"
+    },
+    {
+      "FactionID": "F04",
+      "Name": "Redoran",
+      "Type": "Great House"
+    },
+    {
+      "FactionID": "F05",
+      "Name": "Indoril",
+      "Type": "Great House"
+    },
+    {
+      "FactionID": "F06",
+      "Name": "Hlaalu",
+      "Type": "Great House"
+    },
+    {
+      "FactionID": "F07",
+      "Name": "Imperial Cult",
+      "Type": "Imperial"
+    },
+    {
+      "FactionID": "F08",
+      "Name": "Imperial Legion",
+      "Type": "Imperial"
+    },
+    {
+      "FactionID": "F09",
+      "Name": "East Empire Company",
+      "Type": "Imperial"
+    },
+    {
+      "FactionID": "F10",
+      "Name": "Mages Guild",
+      "Type": "Imperial"
+    },
+    {
+      "FactionID": "F11",
+      "Name": "Fighters Guild",
+      "Type": "Imperial"
+    },
+    {
+      "FactionID": "F12",
+      "Name": "Thieves Guild",
+      "Type": "Imperial"
+    }
+  ],
+  "flaws": [
+    {
+      "Flaw ID": "F01",
+      "Flaw Title": "Skooma / Moon Sugar Addiction",
+      "Description": "Suffers crippling withdrawals and will prioritize securing a fix over basic necessities or group safety."
+    },
+    {
+      "Flaw ID": "F02",
+      "Flaw Title": "N'wah Xenophobia",
+      "Description": "Deeply prejudiced against non-Dunmer (or outlanders of any race), refusing to trade fairly or speak respectfully to foreigners."
+    },
+    {
+      "Flaw ID": "F03",
+      "Flaw Title": "Ash-Lung Paranoia",
+      "Description": "Terrified of the Blight and Corprus; refuses to travel in ash storms and excessively consumes cure disease potions."
+    },
+    {
+      "Flaw ID": "F04",
+      "Flaw Title": "Telvanni Arrogance",
+      "Description": "Believes those without magical aptitude are lesser beings meant to serve, leading to dangerous overconfidence."
+    },
+    {
+      "Flaw ID": "F05",
+      "Flaw Title": "Camonna Tong Debt",
+      "Description": "Owes a massive sum to the local xenophobic crime syndicate and is constantly looking over their shoulder."
+    },
+    {
+      "Flaw ID": "F06",
+      "Flaw Title": "Daedric Superstition",
+      "Description": "Paralyzed by fear of Daedra; refuses to enter ruins, touch cursed gold, or use weapons with Daedric origins."
+    },
+    {
+      "Flaw ID": "F07",
+      "Flaw Title": "Sujamma Brawler",
+      "Description": "Prone to heavy drinking that inevitably leads to aggressive, unprovoked honor duels in cornerclubs."
+    },
+    {
+      "Flaw ID": "F08",
+      "Flaw Title": "Kleptomania for the Mechanical",
+      "Description": "Cannot resist the urge to steal Dwemer cogs, scrap metal, and artifacts, regardless of who is watching or the weight."
+    },
+    {
+      "Flaw ID": "F09",
+      "Flaw Title": "Blind Zealotry",
+      "Description": "Unquestioningly obeys the Tribunal Temple; will assault 'heretics' and refuse aid from Imperial Cult healers."
+    },
+    {
+      "Flaw ID": "F10",
+      "Flaw Title": "Ashlander Traditionalist",
+      "Description": "Refuses the comforts of civilization\u2014will not sleep in beds, eat tavern food, or trust established guilds."
+    },
+    {
+      "Flaw ID": "F11",
+      "Flaw Title": "Sleeper's Susceptibility",
+      "Description": "Plagued by disturbing dreams of the Sixth House; struggles with insomnia and a growing urge to collect ash statues."
+    },
+    {
+      "Flaw ID": "F12",
+      "Flaw Title": "Hlaalu Greed",
+      "Description": "Will betray allies, break contracts, and sell out morals if the offered sum of drakes is high enough."
+    },
+    {
+      "Flaw ID": "F13",
+      "Flaw Title": "Teleportation Sickness",
+      "Description": "Refuses to use Guild Guides, Almsivi Intervention, or Divine Intervention due to a severe physical or mental aversion."
+    },
+    {
+      "Flaw ID": "F14",
+      "Flaw Title": "Pathological Lineage Liar",
+      "Description": "Constantly invents grand tales about their ancestry to gain favor with the Great Houses."
+    },
+    {
+      "Flaw ID": "F15",
+      "Flaw Title": "Overly Trusting Outlander",
+      "Description": "Painfully naive to the cutthroat politics of Vvardenfell, easily manipulated by merchants and nobles alike."
+    },
+    {
+      "Flaw ID": "F16",
+      "Flaw Title": "Morag Tong Target",
+      "Description": "Has a legal writ of execution on their head and constantly suspects everyone around them is an assassin."
+    },
+    {
+      "Flaw ID": "F17",
+      "Flaw Title": "Necromantic Fascination",
+      "Description": "Has a morbid obsession with corpses, tombs, and bonewalkers that deeply disturbs travel companions."
+    },
+    {
+      "Flaw ID": "F18",
+      "Flaw Title": "Fear of the Cliff Racer",
+      "Description": "Refuses to travel the wilderness without a hired guard, terrified of the skies and ambush predators."
+    },
+    {
+      "Flaw ID": "F19",
+      "Flaw Title": "Vow of Poverty",
+      "Description": "Refuses to accumulate wealth or wear extravagant armor, insisting on a life of austere spiritual discipline."
+    },
+    {
+      "Flaw ID": "F20",
+      "Flaw Title": "Imperial Sycophant",
+      "Description": "Believes native Dunmer culture is entirely barbaric and aggressively forces Imperial law and customs on locals."
+    }
+  ],
+  "ideals": [
+    {
+      "ID": "I01",
+      "Name": "The False Gods",
+      "Description": "The Tribunal are usurpers who stole their divinity; only the Anticipations (Azura, Boethiah, Mephala) are worthy of worship."
+    },
+    {
+      "ID": "I02",
+      "Name": "The Twin Lamps' Righteousness",
+      "Description": "Slavery is an abomination, and the systematic dismantling of Vvardenfell's slave trade is a moral imperative."
+    },
+    {
+      "ID": "I03",
+      "Name": "The Necessity of Chains",
+      "Description": "Slavery is a vital economic pillar of Morrowind and an ancient Dunmer right that outlanders have no business judging."
+    },
+    {
+      "ID": "I04",
+      "Name": "Hubris of the Dwarves",
+      "Description": "The Dwemer brought their disappearance upon themselves; their technology is profane and should be left buried."
+    },
+    {
+      "ID": "I05",
+      "Name": "Martial Supremacy",
+      "Description": "Magic is a coward's tool for those afraid to draw blood; true strength is measured in physical combat."
+    },
+    {
+      "ID": "I06",
+      "Name": "The Guild Bureaucracy",
+      "Description": "The Mages and Fighters Guilds are corrupt, bureaucratic jokes; true mastery is found only in the Great Houses."
+    },
+    {
+      "ID": "I07",
+      "Name": "The Misunderstood Ur",
+      "Description": "Dagoth Ur is not a monster, but a patriot trying to expel the Imperial mongrel dogs from Resdayn."
+    },
+    {
+      "ID": "I08",
+      "Name": "The Morag Tong's Balance",
+      "Description": "Legalized assassination is a sacred, necessary institution to prevent all-out, bloody civil war between the Houses."
+    },
+    {
+      "ID": "I09",
+      "Name": "Imperial Progress",
+      "Description": "The Empire brings roads, trade, and civilization; local traditions are merely obstacles to peace and prosperity."
+    },
+    {
+      "ID": "I10",
+      "Name": "The Nerevarine Myth",
+      "Description": "The prophecies of the Incarnate are just superstitious Ashlander campfire stories meant to scare children."
+    },
+    {
+      "ID": "I11",
+      "Name": "Wealth is Worth",
+      "Description": "A person's value is directly tied to the size of their purse; morality is just a luxury for those who can afford it."
+    },
+    {
+      "ID": "I12",
+      "Name": "Nature's Sanctity",
+      "Description": "The bizarre flora and fauna of Vvardenfell are sacred and should only be harvested or killed out of strict survival necessity."
+    },
+    {
+      "ID": "I13",
+      "Name": "Necromancy is Academic",
+      "Description": "The reanimation of flesh is merely an applied science of the Conjuration school, unfairly stigmatized by the Mages Guild."
+    },
+    {
+      "ID": "I14",
+      "Name": "The Corruption of the Legion",
+      "Description": "The Imperial Legion doesn't protect the people; it only exists to secure the East Empire Company's ebony and glass monopolies."
+    },
+    {
+      "ID": "I15",
+      "Name": "Honor in the Duel",
+      "Description": "All interpersonal conflicts, from petty theft to murder, should be settled openly in the arena, House Redoran style."
+    },
+    {
+      "ID": "I16",
+      "Name": "The Ashlands' Truth",
+      "Description": "True wisdom and enlightenment can only be found in the harsh, isolating wastes, far from city walls."
+    },
+    {
+      "ID": "I17",
+      "Name": "Vampirism as Evolution",
+      "Description": "The vampire clans of Vvardenfell hold the key to immortality and superior strength, not a disease to be cured."
+    },
+    {
+      "ID": "I18",
+      "Name": "Right of Conquest",
+      "Description": "Any ruin, tomb, or shipwreck not actively guarded by the Empire belongs to whoever is brave enough to plunder it."
+    },
+    {
+      "ID": "I19",
+      "Name": "The Alchemy of Miracles",
+      "Description": "Every disease, including Corprus and the Blight, has a natural cure hidden in the local flora waiting to be discovered."
+    },
+    {
+      "ID": "I20",
+      "Name": "The Fleeting Empire",
+      "Description": "The Septim Empire is rotting from the inside; aligning with them is tying oneself to a sinking ship."
+    }
+  ],
+  "drives": [
+    {
+      "ID": "D01",
+      "Name": "The Archmagister's Seat",
+      "Description": "To rise through the ranks of House Telvanni, build a mushroom tower, and outlive all rivals."
+    },
+    {
+      "ID": "D02",
+      "Name": "The Cartographer of the Deep",
+      "Description": "To map every uncharted, dangerous Dwemer ruin beneath Vvardenfell's surface."
+    },
+    {
+      "ID": "D03",
+      "Name": "The Corprus Cure",
+      "Description": "To find a remedy for the divine disease to save a loved one wasting away in the Corprusarium."
+    },
+    {
+      "ID": "D04",
+      "Name": "The Stronghold Retirement",
+      "Description": "To amass a staggering fortune of drakes to build a lavish manor on the Odai River and retire in luxury."
+    },
+    {
+      "ID": "D05",
+      "Name": "Vengeance on the Smugglers",
+      "Description": "To track down and systematically dismantle the smuggling ring that ruined their life in the mainland."
+    },
+    {
+      "ID": "D06",
+      "Name": "The Daedric Collector",
+      "Description": "To hunt down and possess one of every known Daedric artifact, regardless of the curses attached to them."
+    },
+    {
+      "ID": "D07",
+      "Name": "The Abolitionist's Crusade",
+      "Description": "To break into the plantations of the Ascadian Isles, free the slaves, and smuggle them safely to Black Marsh."
+    },
+    {
+      "ID": "D08",
+      "Name": "The Ashlander's Respect",
+      "Description": "To survive the harsh rites of passage and be embraced as a true member of the Urshilaku tribe."
+    },
+    {
+      "ID": "D09",
+      "Name": "The Master Enchanter",
+      "Description": "To discover the secrets of binding golden saints and create an artifact of world-altering power."
+    },
+    {
+      "ID": "D10",
+      "Name": "The Sixth House Inquisitor",
+      "Description": "To root out and execute the sleeper agents and cultists hidden in the towns of Vvardenfell."
+    },
+    {
+      "ID": "D11",
+      "Name": "The Ebony Baron",
+      "Description": "To establish a ruthless, legal monopoly on raw ebony trading by strong-arming the East Empire Company."
+    },
+    {
+      "ID": "D12",
+      "Name": "The Redoran Champion",
+      "Description": "To recover a lost, ancestral weapon stolen by a rival Great House centuries ago."
+    },
+    {
+      "ID": "D13",
+      "Name": "The Unseen Blade",
+      "Description": "To execute a high-profile target in Vivec City so flawlessly that even the Morag Tong is impressed."
+    },
+    {
+      "ID": "D14",
+      "Name": "The Guar Baron",
+      "Description": "To tame the wilds of the Ascadian Isles and start a lucrative, cross-island caravan and transport company."
+    },
+    {
+      "ID": "D15",
+      "Name": "The Secret of the Sky",
+      "Description": "To find a reclusive, mad wizard and learn the forgotten, high-level secrets of permanent levitation magic."
+    },
+    {
+      "ID": "D16",
+      "Name": "The Imperial Scholar",
+      "Description": "To document all the bizarre alchemical properties of Morrowind's flora and fauna for the Imperial Library."
+    },
+    {
+      "ID": "D17",
+      "Name": "The Outlander's Defiance",
+      "Description": "To survive the harshest environments of the Red Mountain purely to prove the xenophobic natives wrong."
+    },
+    {
+      "ID": "D18",
+      "Name": "Funding the Rebellion",
+      "Description": "To secretly funnel wealth and weapons to the Camonna Tong to spark a violent revolution against the Empire."
+    },
+    {
+      "ID": "D19",
+      "Name": "The Pilgrim's Path",
+      "Description": "To walk the Seven Graces, read the sermons, and become a high-ranking priest of the Tribunal Temple."
+    },
+    {
+      "ID": "D20",
+      "Name": "The Gladiator's Glory",
+      "Description": "To fight their way from a penniless vagabond to the undisputed grand champion of the Vivec Arena."
+    }
+  ]
+}
